@@ -682,7 +682,7 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
         --https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#vue_ls
-
+        vue_ls_config = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
